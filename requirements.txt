@@ -1,8 +1,3 @@
-# Rag_demo
-### RAG algorithim using Hugging Face Embedding
-
-RAG is a technique that enhance the capability of LLMs by combining the information retrival with the text generation, Instead of replyting on pre-trained knowledge, RAG fetch the relevant data from external source and use it to generate more accurate responses.
-
 streamlit
 python-dotenv
 google-generativeai
@@ -15,4 +10,3 @@ langchain-huggingface  # connect hugging face models to perform embedding
 langchain-text-splitters # to split the data into smaller chunk
 sentence-transformers # pre_trained models to connect chunkx into vector
 langchain-core # to handle documents chains of data etc.,
-
